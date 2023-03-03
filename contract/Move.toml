@@ -1,0 +1,29 @@
+[package]
+name = "contract"
+version = "0.0.0"
+
+[dependencies]
+MoveStdlib = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib", rev = "main" }
+
+[addresses]
+std =  "0x1"
+StarcoinFramework = "0x1"
+MyCounterAddr = "0xb19b07b76f00a8df445368a91c0547cc"
+
+# [package]
+# name = "contract"
+# version = "0.0.0"
+
+# [dependencies.AptosFramework]
+
+# git = 'https://github.com/aptos-labs/aptos-core.git' 
+# rev='main'
+# subdir ='aptos-move/framework/aptos-framwork'
+
+# [addresses]
+
+# publisher = "_"
+
+# [dev-addresses]
+# publisher="0xC0FFEE"
+

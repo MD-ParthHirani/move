@@ -1,0 +1,22 @@
+---
+compiled_package_info:
+  package_name: demo
+  address_alias_instantiation:
+    std: "00000000000000000000000000000001"
+  source_digest: A886B20098969E74B5B1761000F91BF13CAC777A0C153FBE157701BD3C215F89
+  build_flags:
+    dev_mode: true
+    test_mode: true
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: ~
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    bytecode_version: ~
+dependencies:
+  - MoveNursery
+  - MoveStdlib
