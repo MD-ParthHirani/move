@@ -1,0 +1,29 @@
+---
+compiled_package_info:
+  package_name: BasicCoin
+  address_alias_instantiation:
+    Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
+    NamedAddr: 7ade4c75a6fb59d7ea99cda831300b5f9ee7209aadf7e3fcf6a56700f2b0811b
+    aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
+    core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: F7E5C167615909F378BD742C57928D78A93F4B2C69E1BB2D06615E92FA7C6A5A
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses:
+      NamedAddr: 7ade4c75a6fb59d7ea99cda831300b5f9ee7209aadf7e3fcf6a56700f2b0811b
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies:
+  - AptosFramework
+  - AptosStdlib
+  - MoveStdlib

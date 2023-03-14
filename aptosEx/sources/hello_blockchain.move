@@ -17,7 +17,7 @@ module hello_blockchain::message {
         to_message: string::String,
     }
 
-    
+     
     const ENO_MESSAGE: u64 = 0;
 
     #[view]
