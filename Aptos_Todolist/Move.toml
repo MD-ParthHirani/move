@@ -1,10 +1,9 @@
 [package]
-name = 'Calc'
+name = 'exapmle'
 version = '1.0.0'
 
 [addresses]
-std =  "0x1"
-data = "_"
+mytodolist ='_'
 
 [dependencies.AptosFramework]
 git = 'https://github.com/aptos-labs/aptos-core.git'
